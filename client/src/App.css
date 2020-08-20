@@ -1,0 +1,35 @@
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px;
+  min-height: 30rem;
+  justify-items: center;
+}
+
+form,
+.chat-log {
+  max-width: 400px;
+  min-width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 24px -8px rgba(0, 0, 0, 0.7);
+}
+
+.name-field {
+  margin-bottom: 40px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+}
+
+h3 {
+  color: #2677ff;
+}
+
+span {
+  color: #000000;
+}
